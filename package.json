@@ -1,0 +1,19 @@
+{
+  "name": "space-tourism",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisboxing11/Space-Tourism.git"
+  },
+  "author": "Cristian Arroyo Colon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisboxing11/Space-Tourism/issues"
+  },
+  "homepage": "https://github.com/crisboxing11/Space-Tourism#readme"
+}
