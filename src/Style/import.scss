@@ -2,4 +2,5 @@
 @import "./main.scss";
 @import "./variables.scss";
 
-// Add your components as you are creating them in order to export to overlying document
+@import "./components/Nav.scss";
+@import "./components/Header.scss";
