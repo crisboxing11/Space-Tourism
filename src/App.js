@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from './Components/Nav';
 
 
 const App = () =>  {
   return (
-    <div>Hello People</div>
+    <div>
+      < Nav />
+    </div>
   );
 }
 
