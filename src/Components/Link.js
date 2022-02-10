@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Link = () => {
-  return <div></div>;
+const Link = ({className, href, children}) => {
+  
 }
 
 export default Link;
