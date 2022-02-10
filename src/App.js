@@ -5,9 +5,10 @@ import Nav from './Components/Nav';
 
 const App = () =>  {
   return (
-    <div>
+    <Router>
       < Nav />
-    </div>
+
+    </Router>
   );
 }
 
