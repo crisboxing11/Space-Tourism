@@ -1,11 +1,14 @@
 import React, {useState} from 'react';
 import Link from "./Link";
-
+import logo from "../starter-code/shared/logo.svg"
 
 
 const Nav = () => {
 return (
   <div className="container">
+      <header>
+          <Link to="/"><img src={logo} alt="Space Tourism" title="Space Tourism"></img></Link>
+      </header>
     <div className="links">
       <a className="nav-link" href ="#"> 00 Home</a>
       <a className="nav-link" href ="#"> 01 Destination</a>
