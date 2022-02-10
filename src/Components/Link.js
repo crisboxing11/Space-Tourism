@@ -12,6 +12,11 @@ const Link = ({className, href, children}) => {
     const navEvent = new PopStateEvent('popstate');
     window.dispatchEvent(navEvent);
   }
+  return  (
+    <div>
+      <a className={className} href={href} onClick={onClick}>{children}</a>
+    </div>
+  )
 }
 
 export default Link;
