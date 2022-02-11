@@ -7,14 +7,14 @@ import Home from './Components/Home'
 const App = () =>  {
   return (
     <Router>
-      < Nav />
-      <Home />
-      {/* <Routes>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/destination" component={Destination} />
-        <Route exact path="/crew" component={Crew} />
-        <Route exact path="/technology" component={Technology} />
-      </Routes> */}
+      <Nav />
+      <Routes>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/destination">
+          </Route>
+      </Routes>
     </Router>
   );
 }
