@@ -1,13 +1,5 @@
 import React from 'react';
-
-const Home = () => {
-  return (
-    <div>   Home</div>
-  )
-}
-
-export default Home;
-import React from 'react';
+import Link from './Link';
 
 const Home = () => {
   return (
@@ -24,9 +16,9 @@ const Home = () => {
               </article>
               <article>
                   <button>
-                      <LINK to="/destination">
+                      <Link to="/destination">
                           Explore
-                      </LINK>
+                      </Link>
                   </button>
               </article>
           </div>
