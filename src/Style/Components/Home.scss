@@ -1,7 +1,7 @@
 .home {
   background: url("../assets/home/background-home-mobile.jpg") no-repeat
     center/cover;
-  height: calc(100vh = 1px);
+  height: calc(100vh + 1px);
 }
 
 @media (min-width: 768px) {
