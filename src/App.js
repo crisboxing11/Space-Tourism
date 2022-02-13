@@ -8,23 +8,15 @@ import Home from './Components/Home'
 const App = () =>  {
   return (
     <Router>
-      <Nav />
-      <Routes>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/destination">
-          <Destination />
-          </Route>
-        <Route path="/crew">
-          <Crew />
-          </Route>
-        <Route path="/technology">
-          <Technology />
-          </Route>
-      </Routes>
+        <Nav />
+        <Routes>
+          <Route path="/" exact></Route>
+          <Route path="/destination" element={<Destination />} />
+          <Route path="/crew" element={<Crew />} />
+          <Route path="/technology" element={<Technology />} />
+        </Routes>
     </Router>
-  );
+  );  
 }
 
 export default App;
