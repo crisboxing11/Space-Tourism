@@ -14,6 +14,10 @@ const App = () =>  {
         </Route>
         <Route path="/destination">
           </Route>
+        <Route path="/crew">
+          </Route>
+        <Route path="/tech">  
+          </Route>
       </Routes>
     </Router>
   );
