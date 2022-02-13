@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
-import logo from "../starter-code/assets/shared/logo.svg"
+import logo from "../assets/shared/logo.svg"
 
 
 const Nav = () => {
 return (
   <div className="container">
       <header>
-          <Link to="/"><img src={logo} alt="Space Tourism" title="Space Tourism"></img></Link>
+          <Link to="/"><img src={logo} alt="Space Tourism" title="Space Tourism"></img>Hello</Link>
       </header>
     <div className="links">
         <div>
