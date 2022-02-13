@@ -1,7 +1,61 @@
 .home {
   background: url("../assets/home/background-home-mobile.jpg") no-repeat
     center/cover;
-  height: calc(100vh = 1px);
+  height: calc(100vh + 1px);
+  font-family: "Bellefair", serif;
+}
+.textxl {
+  position: absolute;
+  height: 34px;
+  left: 0.11%;
+  right: 15.67%;
+  top: calc(50% - 34px / 2 - 174px);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+
+  letter-spacing: 4.725px;
+  color: #d0d6f9;
+}
+
+span {
+  position: absolute;
+  height: 172px;
+  left: 0%;
+  right: 1.11%;
+  top: calc(50% - 172px / 2 - 47px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 172px;
+  color: $cream;
+}
+
+p {
+  position: absolute;
+  height: 128px;
+  left: 0.11%;
+  right: 1.22%;
+  top: calc(50% - 128px / 2 + 127px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  color: #d0d6f9;
+}
+
+.home .overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh + 1px);
+  text-align: center;
+  color: $cream;
 }
 
 @media (min-width: 768px) {

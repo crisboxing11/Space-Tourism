@@ -5,10 +5,10 @@ import logo from "../Style/assets/shared/logo.svg"
 
 const Nav = () => {
 return (
-  <div className="container">
-      <header>
-          <Link to="/"><img src={logo} alt="Space Tourism" title="Space Tourism"></img>Hello</Link>
-      </header>
+  
+      <header className="header">
+          <div> <Link to="/"><img src={logo} alt="Space Tourism" title="Space Tourism"></img>Hello</Link> </div>
+     
     <div className="links">
         <div>
             <a className="nav-link" href ="#"> 00 Home</a>
@@ -23,7 +23,9 @@ return (
               <a className="nav-link" href ="#"> 03 Technology</a>
         </div>
     </div>
-  </div>
+     </header>
+         
+ 
 );
 }
 
