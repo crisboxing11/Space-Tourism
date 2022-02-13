@@ -5,6 +5,12 @@
   font-family: "Bellefair", serif;
 }
 .textxl {
+  position: absolute;
+  height: 34px;
+  left: 0.11%;
+  right: 15.67%;
+  top: calc(50% - 34px / 2 - 174px);
+
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -12,6 +18,7 @@
   /* identical to box height */
 
   letter-spacing: 4.725px;
+  color: #d0d6f9;
 }
 
 span {
@@ -24,6 +31,21 @@ span {
   font-weight: normal;
   font-size: 150px;
   line-height: 172px;
+  color: $cream;
+}
+
+p {
+  position: absolute;
+  height: 128px;
+  left: 0.11%;
+  right: 1.22%;
+  top: calc(50% - 128px / 2 + 127px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  color: #d0d6f9;
 }
 
 .home .overlay {
