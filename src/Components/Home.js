@@ -6,7 +6,7 @@ const Home = () => {
       <section className="home">
           <div className="overlay">
               <article>
-                  <h1 className="text-2xl text-gray-400">SO YOU WANT TO TRAVEL TO <span>SPACE</span></h1>
+                  <h1 className="textxl">SO YOU WANT TO TRAVEL TO <span>SPACE</span></h1>
                  <p>
                   Let’s face it; 
                   if you want to go to space, 
