@@ -1,13 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 1140px;
-  }
+.home {
+  background: url("./assets/home/background-home-desktop.jpg");
 }
