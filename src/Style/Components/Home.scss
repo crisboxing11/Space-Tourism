@@ -103,9 +103,26 @@ p {
   color: #0b0d17;
 }
 
+@media (min-width: 375px) {
+  .home {
+    background: url("../assets/home/background-home-mobile.jpg") no-repeat
+      center/cover;
+    height: calc(100vh + 1px);
+  }
+}
+
 @media (min-width: 768px) {
+  .home {
+    background: url("../assets/home/background-home-tablet.jpg") no-repeat
+      center/cover;
+    height: calc(100vh + 1px);
+  }
+}
+
+@media (min-width: 1280px) {
   .home {
     background: url("../assets/home/background-home-desktop.jpg") no-repeat
       center/cover;
+    height: calc(100vh + 1px);
   }
 }
