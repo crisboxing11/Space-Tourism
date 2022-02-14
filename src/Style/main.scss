@@ -1,2 +1,19 @@
 // font-family: 'Barlow Condensed', sans-serif;
 // font-family: 'Bellefair', serif;
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+img {
+  user-select: none;
+}
+
+p {
+  line-height: 1.8;
+}

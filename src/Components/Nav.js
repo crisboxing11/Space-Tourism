@@ -1,14 +1,20 @@
-import React, {useState} from 'react';
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
+import { FiMenu } from "react-icons/fi";
 import logo from "../Style/assets/shared/logo.svg"
 
 
 const Nav = () => {
+
+    
 return (
-  
-      <header className="header">
-          <div> <Link to="/"><img src={logo} alt="Space Tourism" title="Space Tourism"></img>Hello</Link> </div>
-     
+  <header className="header px-5 flex items-center justify-between">
+    <div className="py-5">
+      {" "}
+         <NavLink to="/">
+        <img src={logo} alt="Space Tourism" title="Space Tourism"></img>Hello
+          </NavLink>
+    </div>
+
     {/* <div className="links">
         <div>
             <a className="nav-link" href ="#"> 00 Home</a>
@@ -23,9 +29,7 @@ return (
               <a className="nav-link" href ="#"> 03 Technology</a>
         </div>
     </div> */}
-     </header>
-         
- 
+  </header>
 );
 }
 
