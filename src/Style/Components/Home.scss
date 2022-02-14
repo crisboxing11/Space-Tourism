@@ -34,6 +34,34 @@ p {
       center/cover;
     height: calc(100vh + 1px);
   }
+  .menu {
+    display: none;
+  }
+
+  .header nav {
+    display: block;
+  }
+
+  .header nav ul {
+    flex-direction: row;
+    background-color: transparent;
+    backdrop-filter: blur(0);
+    --webkit-backdrop-filter: blur(0);
+    position: relative;
+    top: 0;
+    right: 0;
+    width: auto;
+  }
+
+  .header nav ul li {
+    margin: 0 10px;
+  }
+
+  // .destinations {
+  //   background: url("../assets/destination/background-destination-mobile.jpg")
+  //     no-repeat center/cover;
+  //   height: auto;
+  // }
 }
 
 @media (min-width: 768px) {
@@ -42,6 +70,10 @@ p {
       center/cover;
     height: calc(100vh + 1px);
   }
+
+  .home .overlay {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -49,5 +81,14 @@ p {
     background: url("../assets/home/background-home-desktop.jpg") no-repeat
       center/cover;
     height: calc(100vh + 1px);
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .home .overlay {
+    max-width: 1200px;
+    margin: auto;
   }
 }
