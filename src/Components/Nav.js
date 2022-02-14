@@ -9,7 +9,7 @@ return (
       <header className="header">
           <div> <Link to="/"><img src={logo} alt="Space Tourism" title="Space Tourism"></img>Hello</Link> </div>
      
-    <div className="links">
+    {/* <div className="links">
         <div>
             <a className="nav-link" href ="#"> 00 Home</a>
         </div>
@@ -22,7 +22,7 @@ return (
         <div>
               <a className="nav-link" href ="#"> 03 Technology</a>
         </div>
-    </div>
+    </div> */}
      </header>
          
  
