@@ -21,6 +21,22 @@ return (
             className="block mx-auto"
           />
         </article>
+        <article className="pt-20 text-center md:text-left pb-10">
+          <ul className="flex items-center justify-center md:justify-start mb-10">
+            {planets.map((item, index) => (
+              <li key={index} className="mr-5">
+                <button
+                  onClick={() => setValue(index)}
+                  className={`uppercase font-semibold tracking-wider text-gray-200 pb-2 border-b border-transparent ${
+                    index === value && "border-b border-white"
+                  }`}
+                >
+                  {item.name}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </article>
       </div>
     </section>
   </>
