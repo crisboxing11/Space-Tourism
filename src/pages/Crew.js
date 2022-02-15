@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BsCircleFill } from "react-icons/bs";
-import data from "../Style/assets/data.json";
+import data from "../Style/assets/data/data.json";
 
 const Crew = () => {
   const [crew] = useState(data.crew);

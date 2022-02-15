@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../Style/assets/data.json";
+import data from "../Style/assets/data/data.json";
 
 const Destination = () => {
 const [planets] = useState(data.destinations);
