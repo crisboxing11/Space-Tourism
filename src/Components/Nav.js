@@ -54,6 +54,11 @@ return (
         </li>
       </ul>
     </nav>
+    {/* <div className="menu">
+      <button id="menu" onClick={handleClick}>
+        <FiMenu className="text-white text-4xl" />
+      </button>
+    </div> */}
   </header>
 );
 }
