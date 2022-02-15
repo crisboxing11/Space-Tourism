@@ -11,7 +11,7 @@ return (
     <div className="py-5">
       {" "}
       <NavLink to="/">
-        <img src={logo} alt="Space Tourism" title="Space Tourism"></img>Hello
+        <img src={logo} alt="Space Tourism" title="Space Tourism"></img>
       </NavLink>
     </div>
     <nav id="navbar">
