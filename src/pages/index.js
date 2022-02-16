@@ -3,6 +3,7 @@ import Technology from './Technology';
 import Destination from './Destination';
 import Error from './Error';
 import Home from "./Home"
+import Nav from './Nav';
 
 
-export {Destination, Crew, Technology, Error, Home}
+export {Destination, Crew, Technology, Error, Home, Nav};
