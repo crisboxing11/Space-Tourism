@@ -86,6 +86,11 @@ p {
   .home .overlay {
     flex-direction: row;
   }
+
+  .destinations {
+    background: url("..assets/destination/background-destination-tablet.jpg")
+      no-repeat center/cover;
+  }
 }
 
 @media (min-width: 1280px) {
