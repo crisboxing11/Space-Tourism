@@ -91,6 +91,11 @@ p {
     background: url("..assets/destination/background-destination-tablet.jpg")
       no-repeat center/cover;
   }
+
+  .crew {
+    background: url("..assets/crew/background-crew-tablet.jpg") no-repeat
+      center/cover;
+  }
 }
 
 @media (min-width: 1280px) {
