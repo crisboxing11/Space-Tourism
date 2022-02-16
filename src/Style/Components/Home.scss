@@ -57,11 +57,17 @@ p {
     margin: 0 10px;
   }
 
-  // .destinations {
-  //   background: url("../assets/destination/background-destination-mobile.jpg")
-  //     no-repeat center/cover;
-  //   height: auto;
-  // }
+  .destinations {
+    background: url("../assets/destination/background-destination-mobile.jpg")
+      no-repeat center/cover;
+    height: auto;
+  }
+
+  .crew {
+    background: url("../assets/crew/background-crew-mobile.jpg") no-repeat
+      center/cover;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
