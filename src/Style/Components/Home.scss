@@ -68,6 +68,12 @@ p {
       center/cover;
     height: auto;
   }
+
+  .technology {
+    background: url("..assets/technology/background-technology-mobile.jpg")
+      no-repeat center/cover;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
